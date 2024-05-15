@@ -1,0 +1,6 @@
+source;share/cv2_contour/hook/pythonpath.ps1
+source;share/cv2_contour/hook/pythonpath.dsv
+source;share/cv2_contour/hook/pythonpath.sh
+source;share/cv2_contour/hook/ament_prefix_path.ps1
+source;share/cv2_contour/hook/ament_prefix_path.dsv
+source;share/cv2_contour/hook/ament_prefix_path.sh

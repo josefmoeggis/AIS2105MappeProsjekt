@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+Installing listener script to /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+Installing state_publisher script to /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+
+Installed /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2
+running symlink_data
+symbolically linking /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/resource/urdf_tutorial_r2d2 -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+symbolically linking /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/package.xml -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+symbolically linking /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/launch/demo.launch.py -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+symbolically linking /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/urdf/r2d2.rviz -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+symbolically linking /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/urdf/runding.urdf -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2

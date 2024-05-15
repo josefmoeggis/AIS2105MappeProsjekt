@@ -1,0 +1,3 @@
+[console_scripts]
+ball_control_pid = py_pid.controller_pid:main
+

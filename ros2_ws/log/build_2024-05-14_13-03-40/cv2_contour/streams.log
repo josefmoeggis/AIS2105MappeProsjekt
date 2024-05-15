@@ -1,0 +1,37 @@
+[2.409s] Invoking command in '/home/joe/workspaces/ros2_ws/src/cv2_contour': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/cv2_contour/prefix_override:/home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cv2_contour build --build-base /home/joe/workspaces/ros2_ws/build/cv2_contour/build install --record /home/joe/workspaces/ros2_ws/build/cv2_contour/install.log --single-version-externally-managed install_data
+[2.837s] running egg_info
+[2.838s] creating ../../build/cv2_contour/cv2_contour.egg-info
+[2.842s] writing ../../build/cv2_contour/cv2_contour.egg-info/PKG-INFO
+[2.842s] writing dependency_links to ../../build/cv2_contour/cv2_contour.egg-info/dependency_links.txt
+[2.842s] writing entry points to ../../build/cv2_contour/cv2_contour.egg-info/entry_points.txt
+[2.842s] writing requirements to ../../build/cv2_contour/cv2_contour.egg-info/requires.txt
+[2.842s] writing top-level names to ../../build/cv2_contour/cv2_contour.egg-info/top_level.txt
+[2.843s] writing manifest file '../../build/cv2_contour/cv2_contour.egg-info/SOURCES.txt'
+[2.843s] reading manifest file '../../build/cv2_contour/cv2_contour.egg-info/SOURCES.txt'
+[2.844s] writing manifest file '../../build/cv2_contour/cv2_contour.egg-info/SOURCES.txt'
+[2.845s] running build
+[2.845s] running build_py
+[2.845s] creating /home/joe/workspaces/ros2_ws/build/cv2_contour/build
+[2.845s] creating /home/joe/workspaces/ros2_ws/build/cv2_contour/build/lib
+[2.845s] creating /home/joe/workspaces/ros2_ws/build/cv2_contour/build/lib/cv2_contour
+[2.845s] copying cv2_contour/cv2_contour_node.py -> /home/joe/workspaces/ros2_ws/build/cv2_contour/build/lib/cv2_contour
+[2.846s] copying cv2_contour/__init__.py -> /home/joe/workspaces/ros2_ws/build/cv2_contour/build/lib/cv2_contour
+[2.846s] running install
+[2.849s] running install_lib
+[2.849s] creating /home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages/cv2_contour
+[2.849s] copying /home/joe/workspaces/ros2_ws/build/cv2_contour/build/lib/cv2_contour/cv2_contour_node.py -> /home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages/cv2_contour
+[2.850s] copying /home/joe/workspaces/ros2_ws/build/cv2_contour/build/lib/cv2_contour/__init__.py -> /home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages/cv2_contour
+[2.850s] byte-compiling /home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages/cv2_contour/cv2_contour_node.py to cv2_contour_node.cpython-310.pyc
+[2.851s] byte-compiling /home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages/cv2_contour/__init__.py to __init__.cpython-310.pyc
+[2.851s] running install_data
+[2.852s] creating /home/joe/workspaces/ros2_ws/install/cv2_contour/share/ament_index
+[2.852s] creating /home/joe/workspaces/ros2_ws/install/cv2_contour/share/ament_index/resource_index
+[2.852s] creating /home/joe/workspaces/ros2_ws/install/cv2_contour/share/ament_index/resource_index/packages
+[2.852s] copying resource/cv2_contour -> /home/joe/workspaces/ros2_ws/install/cv2_contour/share/ament_index/resource_index/packages
+[2.852s] copying package.xml -> /home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour
+[2.853s] running install_egg_info
+[2.856s] Copying ../../build/cv2_contour/cv2_contour.egg-info to /home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages/cv2_contour-0.0.0-py3.10.egg-info
+[2.858s] running install_scripts
+[2.890s] Installing cv2_contour_node script to /home/joe/workspaces/ros2_ws/install/cv2_contour/lib/cv2_contour
+[2.890s] writing list of installed files to '/home/joe/workspaces/ros2_ws/build/cv2_contour/install.log'
+[2.938s] Invoked command in '/home/joe/workspaces/ros2_ws/src/cv2_contour' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/cv2_contour/prefix_override:/home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cv2_contour build --build-base /home/joe/workspaces/ros2_ws/build/cv2_contour/build install --record /home/joe/workspaces/ros2_ws/build/cv2_contour/install.log --single-version-externally-managed install_data

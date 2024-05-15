@@ -1,0 +1,3 @@
+[console_scripts]
+cv2_contour_node = cv2_contour.cv2_contour_node:main
+

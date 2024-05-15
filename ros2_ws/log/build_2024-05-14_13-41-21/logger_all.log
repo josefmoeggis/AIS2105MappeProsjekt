@@ -1,0 +1,336 @@
+[0.152s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.152s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a33f48240d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a33f4991030>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a33f4991030>>)
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.367s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joe/workspaces/ros2_ws'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv2_contour) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cv2_contour' with type 'ros.ament_python' and name 'cv2_contour'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_controller_pub) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_controller_pub' with type 'ros.ament_python' and name 'py_controller_pub'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_kinematics) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_kinematics' with type 'ros.ament_python' and name 'py_kinematics'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_launch' with type 'ros.ament_python' and name 'py_launch'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pid) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pid' with type 'ros.ament_python' and name 'py_pid'
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.425s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/joe/workspaces/ros2_ws/install
+[0.427s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'cv2_contour' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'cv2_contour' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/workspaces/ros2_ws/build/cv2_contour', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/workspaces/ros2_ws/install/cv2_contour', 'merge_install': False, 'path': '/home/joe/workspaces/ros2_ws/src/cv2_contour', 'symlink_install': False, 'test_result_base': None}
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'cmake_target' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.496s] Level 5:colcon.colcon_core.verb:set package 'py_controller_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.496s] DEBUG:colcon.colcon_core.verb:Building package 'py_controller_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/workspaces/ros2_ws/build/py_controller_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/workspaces/ros2_ws/install/py_controller_pub', 'merge_install': False, 'path': '/home/joe/workspaces/ros2_ws/src/py_controller_pub', 'symlink_install': False, 'test_result_base': None}
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'py_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/workspaces/ros2_ws/build/py_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/workspaces/ros2_ws/install/py_kinematics', 'merge_install': False, 'path': '/home/joe/workspaces/ros2_ws/src/py_kinematics', 'symlink_install': False, 'test_result_base': None}
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.498s] DEBUG:colcon.colcon_core.verb:Building package 'py_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/workspaces/ros2_ws/build/py_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/workspaces/ros2_ws/install/py_launch', 'merge_install': False, 'path': '/home/joe/workspaces/ros2_ws/src/py_launch', 'symlink_install': False, 'test_result_base': None}
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'cmake_clean_cache' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'cmake_clean_first' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'py_pid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.498s] DEBUG:colcon.colcon_core.verb:Building package 'py_pid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/workspaces/ros2_ws/build/py_pid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/workspaces/ros2_ws/install/py_pid', 'merge_install': False, 'path': '/home/joe/workspaces/ros2_ws/src/py_pid', 'symlink_install': False, 'test_result_base': None}
+[0.498s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.500s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joe/workspaces/ros2_ws/src/cv2_contour' with build type 'ament_python'
+[0.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv2_contour', 'ament_prefix_path')
+[0.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/hook/ament_prefix_path.ps1'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/hook/ament_prefix_path.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/hook/ament_prefix_path.sh'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.512s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joe/workspaces/ros2_ws/src/py_controller_pub' with build type 'ament_python'
+[0.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_controller_pub', 'ament_prefix_path')
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/hook/ament_prefix_path.ps1'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/hook/ament_prefix_path.dsv'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/hook/ament_prefix_path.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.521s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joe/workspaces/ros2_ws/src/py_kinematics' with build type 'ament_python'
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_kinematics', 'ament_prefix_path')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/hook/ament_prefix_path.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/hook/ament_prefix_path.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/hook/ament_prefix_path.sh'
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joe/workspaces/ros2_ws/src/py_launch' with build type 'ament_python'
+[0.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch', 'ament_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/hook/ament_prefix_path.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/hook/ament_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/hook/ament_prefix_path.sh'
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joe/workspaces/ros2_ws/src/py_pid' with build type 'ament_python'
+[0.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pid', 'ament_prefix_path')
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/hook/ament_prefix_path.ps1'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/hook/ament_prefix_path.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/hook/ament_prefix_path.sh'
+[0.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.908s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joe/workspaces/ros2_ws/src/cv2_contour'
+[0.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.242s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joe/workspaces/ros2_ws/src/py_controller_pub'
+[1.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.605s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joe/workspaces/ros2_ws/src/py_kinematics'
+[1.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.935s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joe/workspaces/ros2_ws/src/py_launch'
+[1.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.266s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joe/workspaces/ros2_ws/src/py_pid'
+[2.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/workspaces/ros2_ws/src/py_launch': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_launch/prefix_override:/home/joe/workspaces/ros2_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/joe/workspaces/ros2_ws/build/py_launch/build install --record /home/joe/workspaces/ros2_ws/build/py_launch/install.log --single-version-externally-managed install_data
+[2.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/workspaces/ros2_ws/src/py_controller_pub': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_controller_pub/prefix_override:/home/joe/workspaces/ros2_ws/install/py_controller_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_controller_pub build --build-base /home/joe/workspaces/ros2_ws/build/py_controller_pub/build install --record /home/joe/workspaces/ros2_ws/build/py_controller_pub/install.log --single-version-externally-managed install_data
+[2.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/workspaces/ros2_ws/src/py_pid': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_pid/prefix_override:/home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pid build --build-base /home/joe/workspaces/ros2_ws/build/py_pid/build install --record /home/joe/workspaces/ros2_ws/build/py_pid/install.log --single-version-externally-managed install_data
+[2.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/workspaces/ros2_ws/src/py_kinematics': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_kinematics/prefix_override:/home/joe/workspaces/ros2_ws/install/py_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_kinematics build --build-base /home/joe/workspaces/ros2_ws/build/py_kinematics/build install --record /home/joe/workspaces/ros2_ws/build/py_kinematics/install.log --single-version-externally-managed install_data
+[2.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/workspaces/ros2_ws/src/cv2_contour': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/cv2_contour/prefix_override:/home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cv2_contour build --build-base /home/joe/workspaces/ros2_ws/build/cv2_contour/build install --record /home/joe/workspaces/ros2_ws/build/cv2_contour/install.log --single-version-externally-managed install_data
+[3.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/workspaces/ros2_ws/src/py_controller_pub' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_controller_pub/prefix_override:/home/joe/workspaces/ros2_ws/install/py_controller_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_controller_pub build --build-base /home/joe/workspaces/ros2_ws/build/py_controller_pub/build install --record /home/joe/workspaces/ros2_ws/build/py_controller_pub/install.log --single-version-externally-managed install_data
+[3.248s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_controller_pub' for CMake module files
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_controller_pub' for CMake config files
+[3.250s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_controller_pub/lib'
+[3.250s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_controller_pub/bin'
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_controller_pub/lib/pkgconfig/py_controller_pub.pc'
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_controller_pub/lib/python3.10/site-packages'
+[3.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_controller_pub', 'pythonpath')
+[3.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/hook/pythonpath.ps1'
+[3.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/hook/pythonpath.dsv'
+[3.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/hook/pythonpath.sh'
+[3.254s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_controller_pub/bin'
+[3.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_controller_pub)
+[3.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/package.ps1'
+[3.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/package.dsv'
+[3.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/package.sh'
+[3.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/package.bash'
+[3.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/py_controller_pub/package.zsh'
+[3.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/workspaces/ros2_ws/install/py_controller_pub/share/colcon-core/packages/py_controller_pub)
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_launch' for CMake module files
+[3.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/workspaces/ros2_ws/src/py_launch' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_launch/prefix_override:/home/joe/workspaces/ros2_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/joe/workspaces/ros2_ws/build/py_launch/build install --record /home/joe/workspaces/ros2_ws/build/py_launch/install.log --single-version-externally-managed install_data
+[3.266s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_launch' for CMake config files
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_launch/lib'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_launch/bin'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_launch/lib/pkgconfig/py_launch.pc'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_launch/lib/python3.10/site-packages'
+[3.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch', 'pythonpath')
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/hook/pythonpath.ps1'
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/hook/pythonpath.dsv'
+[3.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/hook/pythonpath.sh'
+[3.270s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_launch/bin'
+[3.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_launch)
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/package.ps1'
+[3.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/package.dsv'
+[3.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/package.sh'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/package.bash'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_launch/share/py_launch/package.zsh'
+[3.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/workspaces/ros2_ws/install/py_launch/share/colcon-core/packages/py_launch)
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/cv2_contour' for CMake module files
+[3.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/workspaces/ros2_ws/src/cv2_contour' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/cv2_contour/prefix_override:/home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cv2_contour build --build-base /home/joe/workspaces/ros2_ws/build/cv2_contour/build install --record /home/joe/workspaces/ros2_ws/build/cv2_contour/install.log --single-version-externally-managed install_data
+[3.459s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/cv2_contour' for CMake config files
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/cv2_contour/lib'
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/cv2_contour/bin'
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/cv2_contour/lib/pkgconfig/cv2_contour.pc'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/cv2_contour/lib/python3.10/site-packages'
+[3.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv2_contour', 'pythonpath')
+[3.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/hook/pythonpath.ps1'
+[3.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/hook/pythonpath.dsv'
+[3.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/hook/pythonpath.sh'
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/cv2_contour/bin'
+[3.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv2_contour)
+[3.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/package.ps1'
+[3.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/package.dsv'
+[3.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/package.sh'
+[3.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/package.bash'
+[3.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/cv2_contour/share/cv2_contour/package.zsh'
+[3.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/workspaces/ros2_ws/install/cv2_contour/share/colcon-core/packages/cv2_contour)
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_pid' for CMake module files
+[3.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/workspaces/ros2_ws/src/py_pid' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_pid/prefix_override:/home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pid build --build-base /home/joe/workspaces/ros2_ws/build/py_pid/build install --record /home/joe/workspaces/ros2_ws/build/py_pid/install.log --single-version-externally-managed install_data
+[3.479s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_pid' for CMake config files
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_pid/lib'
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_pid/bin'
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_pid/lib/pkgconfig/py_pid.pc'
+[3.481s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages'
+[3.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pid', 'pythonpath')
+[3.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/hook/pythonpath.ps1'
+[3.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/hook/pythonpath.dsv'
+[3.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/hook/pythonpath.sh'
+[3.484s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_pid/bin'
+[3.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pid)
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/package.ps1'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/package.dsv'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/package.sh'
+[3.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/package.bash'
+[3.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid/package.zsh'
+[3.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/workspaces/ros2_ws/install/py_pid/share/colcon-core/packages/py_pid)
+[3.547s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_kinematics' for CMake module files
+[3.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/workspaces/ros2_ws/src/py_kinematics' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_kinematics/prefix_override:/home/joe/workspaces/ros2_ws/install/py_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_kinematics build --build-base /home/joe/workspaces/ros2_ws/build/py_kinematics/build install --record /home/joe/workspaces/ros2_ws/build/py_kinematics/install.log --single-version-externally-managed install_data
+[3.548s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_kinematics' for CMake config files
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_kinematics/lib'
+[3.550s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_kinematics/bin'
+[3.550s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_kinematics/lib/pkgconfig/py_kinematics.pc'
+[3.550s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_kinematics/lib/python3.10/site-packages'
+[3.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_kinematics', 'pythonpath')
+[3.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/hook/pythonpath.ps1'
+[3.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/hook/pythonpath.dsv'
+[3.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/hook/pythonpath.sh'
+[3.552s] Level 1:colcon.colcon_core.environment:checking '/home/joe/workspaces/ros2_ws/install/py_kinematics/bin'
+[3.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_kinematics)
+[3.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/package.ps1'
+[3.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/package.dsv'
+[3.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/package.sh'
+[3.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/package.bash'
+[3.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/workspaces/ros2_ws/install/py_kinematics/share/py_kinematics/package.zsh'
+[3.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/workspaces/ros2_ws/install/py_kinematics/share/colcon-core/packages/py_kinematics)
+[3.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.557s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.566s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joe/workspaces/ros2_ws/install/local_setup.ps1'
+[3.588s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joe/workspaces/ros2_ws/install/_local_setup_util_ps1.py'
+[3.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joe/workspaces/ros2_ws/install/setup.ps1'
+[3.592s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joe/workspaces/ros2_ws/install/local_setup.sh'
+[3.593s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joe/workspaces/ros2_ws/install/_local_setup_util_sh.py'
+[3.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joe/workspaces/ros2_ws/install/setup.sh'
+[3.596s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joe/workspaces/ros2_ws/install/local_setup.bash'
+[3.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joe/workspaces/ros2_ws/install/setup.bash'
+[3.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joe/workspaces/ros2_ws/install/local_setup.zsh'
+[3.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joe/workspaces/ros2_ws/install/setup.zsh'

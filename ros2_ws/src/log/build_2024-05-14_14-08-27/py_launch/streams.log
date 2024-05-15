@@ -1,0 +1,24 @@
+[2.125s] Invoking command in '/home/joe/workspaces/ros2_ws/src/py_launch': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/py_launch/prefix_override:/home/joe/workspaces/ros2_ws/src/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_launch build --build-base /home/joe/workspaces/ros2_ws/src/build/py_launch/build install --record /home/joe/workspaces/ros2_ws/src/build/py_launch/install.log --single-version-externally-managed install_data
+[2.467s] running egg_info
+[2.468s] writing ../build/py_launch/py_launch.egg-info/PKG-INFO
+[2.469s] writing dependency_links to ../build/py_launch/py_launch.egg-info/dependency_links.txt
+[2.469s] writing entry points to ../build/py_launch/py_launch.egg-info/entry_points.txt
+[2.469s] writing requirements to ../build/py_launch/py_launch.egg-info/requires.txt
+[2.469s] writing top-level names to ../build/py_launch/py_launch.egg-info/top_level.txt
+[2.473s] reading manifest file '../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[2.474s] writing manifest file '../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[2.474s] running build
+[2.474s] running build_py
+[2.474s] copying py_launch/launch.py -> /home/joe/workspaces/ros2_ws/src/build/py_launch/build/lib/py_launch
+[2.475s] running install
+[2.476s] running install_lib
+[2.477s] copying /home/joe/workspaces/ros2_ws/src/build/py_launch/build/lib/py_launch/launch.py -> /home/joe/workspaces/ros2_ws/src/install/py_launch/lib/python3.10/site-packages/py_launch
+[2.478s] byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_launch/lib/python3.10/site-packages/py_launch/launch.py to launch.cpython-310.pyc
+[2.479s] running install_data
+[2.479s] copying py_launch/launch.py -> /home/joe/workspaces/ros2_ws/src/install/py_launch/share/py_launch
+[2.479s] running install_egg_info
+[2.482s] removing '/home/joe/workspaces/ros2_ws/src/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[2.483s] Copying ../build/py_launch/py_launch.egg-info to /home/joe/workspaces/ros2_ws/src/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info
+[2.493s] running install_scripts
+[2.525s] writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/py_launch/install.log'
+[2.606s] Invoked command in '/home/joe/workspaces/ros2_ws/src/py_launch' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/py_launch/prefix_override:/home/joe/workspaces/ros2_ws/src/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_launch build --build-base /home/joe/workspaces/ros2_ws/src/build/py_launch/build install --record /home/joe/workspaces/ros2_ws/src/build/py_launch/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/magnus_kinematic/magnus_kinematic.egg-info/PKG-INFO
+writing dependency_links to ../../build/magnus_kinematic/magnus_kinematic.egg-info/dependency_links.txt
+writing entry points to ../../build/magnus_kinematic/magnus_kinematic.egg-info/entry_points.txt
+writing requirements to ../../build/magnus_kinematic/magnus_kinematic.egg-info/requires.txt
+writing top-level names to ../../build/magnus_kinematic/magnus_kinematic.egg-info/top_level.txt
+reading manifest file '../../build/magnus_kinematic/magnus_kinematic.egg-info/SOURCES.txt'
+writing manifest file '../../build/magnus_kinematic/magnus_kinematic.egg-info/SOURCES.txt'
+running build
+running build_py
+copying magnus_kinematic/magnus_functions.py -> /home/joe/workspaces/ros2_ws/build/magnus_kinematic/build/lib/magnus_kinematic
+copying magnus_kinematic/magnus_kinematic_node.py -> /home/joe/workspaces/ros2_ws/build/magnus_kinematic/build/lib/magnus_kinematic
+running install
+running install_lib
+copying /home/joe/workspaces/ros2_ws/build/magnus_kinematic/build/lib/magnus_kinematic/magnus_functions.py -> /home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages/magnus_kinematic
+copying /home/joe/workspaces/ros2_ws/build/magnus_kinematic/build/lib/magnus_kinematic/magnus_kinematic_node.py -> /home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages/magnus_kinematic
+byte-compiling /home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages/magnus_kinematic/magnus_functions.py to magnus_functions.cpython-310.pyc
+byte-compiling /home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages/magnus_kinematic/magnus_kinematic_node.py to magnus_kinematic_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages/magnus_kinematic-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/magnus_kinematic/magnus_kinematic.egg-info to /home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages/magnus_kinematic-0.0.0-py3.10.egg-info
+running install_scripts
+Installing new_controller script to /home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/magnus_kinematic
+writing list of installed files to '/home/joe/workspaces/ros2_ws/build/magnus_kinematic/install.log'

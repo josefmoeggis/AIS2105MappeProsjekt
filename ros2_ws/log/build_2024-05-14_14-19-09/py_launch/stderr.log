@@ -1,0 +1,5 @@
+  File "/home/joe/workspaces/ros2_ws/install/py_launch/lib/python3.10/site-packages/py_launch/launch.py", line 30
+    Node(
+    ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

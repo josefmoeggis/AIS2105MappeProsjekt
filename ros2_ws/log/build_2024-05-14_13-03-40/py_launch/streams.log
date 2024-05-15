@@ -1,0 +1,20 @@
+[2.430s] Invoking command in '/home/joe/workspaces/ros2_ws/src/py_launch': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_launch/prefix_override:/home/joe/workspaces/ros2_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/joe/workspaces/ros2_ws/build/py_launch/build install --record /home/joe/workspaces/ros2_ws/build/py_launch/install.log --single-version-externally-managed install_data
+[2.862s] running egg_info
+[2.863s] writing ../../build/py_launch/py_launch.egg-info/PKG-INFO
+[2.863s] writing dependency_links to ../../build/py_launch/py_launch.egg-info/dependency_links.txt
+[2.864s] writing entry points to ../../build/py_launch/py_launch.egg-info/entry_points.txt
+[2.864s] writing requirements to ../../build/py_launch/py_launch.egg-info/requires.txt
+[2.864s] writing top-level names to ../../build/py_launch/py_launch.egg-info/top_level.txt
+[2.867s] reading manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[2.869s] writing manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[2.869s] running build
+[2.869s] running build_py
+[2.870s] running install
+[2.870s] running install_lib
+[2.873s] running install_data
+[2.873s] running install_egg_info
+[2.876s] removing '/home/joe/workspaces/ros2_ws/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[2.877s] Copying ../../build/py_launch/py_launch.egg-info to /home/joe/workspaces/ros2_ws/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info
+[2.879s] running install_scripts
+[2.921s] writing list of installed files to '/home/joe/workspaces/ros2_ws/build/py_launch/install.log'
+[2.971s] Invoked command in '/home/joe/workspaces/ros2_ws/src/py_launch' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_launch/prefix_override:/home/joe/workspaces/ros2_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/joe/workspaces/ros2_ws/build/py_launch/build install --record /home/joe/workspaces/ros2_ws/build/py_launch/install.log --single-version-externally-managed install_data

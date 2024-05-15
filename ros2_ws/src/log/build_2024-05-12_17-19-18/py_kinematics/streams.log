@@ -1,0 +1,40 @@
+[1.413s] Invoking command in '/home/joe/workspaces/ros2_ws/src/py_kinematics': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/py_kinematics/prefix_override:/home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_kinematics build --build-base /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build install --record /home/joe/workspaces/ros2_ws/src/build/py_kinematics/install.log --single-version-externally-managed install_data
+[1.714s] running egg_info
+[1.714s] creating ../build/py_kinematics/py_kinematics.egg-info
+[1.715s] writing ../build/py_kinematics/py_kinematics.egg-info/PKG-INFO
+[1.715s] writing dependency_links to ../build/py_kinematics/py_kinematics.egg-info/dependency_links.txt
+[1.715s] writing entry points to ../build/py_kinematics/py_kinematics.egg-info/entry_points.txt
+[1.715s] writing requirements to ../build/py_kinematics/py_kinematics.egg-info/requires.txt
+[1.716s] writing top-level names to ../build/py_kinematics/py_kinematics.egg-info/top_level.txt
+[1.716s] writing manifest file '../build/py_kinematics/py_kinematics.egg-info/SOURCES.txt'
+[1.718s] reading manifest file '../build/py_kinematics/py_kinematics.egg-info/SOURCES.txt'
+[1.719s] writing manifest file '../build/py_kinematics/py_kinematics.egg-info/SOURCES.txt'
+[1.719s] running build
+[1.720s] running build_py
+[1.720s] creating /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build
+[1.720s] creating /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib
+[1.720s] creating /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics
+[1.720s] copying py_kinematics/kinematic_functions.py -> /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics
+[1.720s] copying py_kinematics/kinematic_control.py -> /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics
+[1.720s] copying py_kinematics/__init__.py -> /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics
+[1.721s] running install
+[1.721s] running install_lib
+[1.722s] creating /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics
+[1.722s] copying /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics/kinematic_functions.py -> /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics
+[1.722s] copying /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics/kinematic_control.py -> /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics
+[1.722s] copying /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics/__init__.py -> /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics
+[1.723s] byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics/kinematic_functions.py to kinematic_functions.cpython-310.pyc
+[1.725s] byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics/kinematic_control.py to kinematic_control.cpython-310.pyc
+[1.725s] byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics/__init__.py to __init__.cpython-310.pyc
+[1.726s] running install_data
+[1.726s] creating /home/joe/workspaces/ros2_ws/src/install/py_kinematics/share/ament_index
+[1.726s] creating /home/joe/workspaces/ros2_ws/src/install/py_kinematics/share/ament_index/resource_index
+[1.726s] creating /home/joe/workspaces/ros2_ws/src/install/py_kinematics/share/ament_index/resource_index/packages
+[1.726s] copying resource/py_kinematics -> /home/joe/workspaces/ros2_ws/src/install/py_kinematics/share/ament_index/resource_index/packages
+[1.726s] copying package.xml -> /home/joe/workspaces/ros2_ws/src/install/py_kinematics/share/py_kinematics
+[1.727s] running install_egg_info
+[1.729s] Copying ../build/py_kinematics/py_kinematics.egg-info to /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics-0.0.0-py3.10.egg-info
+[1.730s] running install_scripts
+[1.759s] Installing kinematic_controller script to /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/py_kinematics
+[1.759s] writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/py_kinematics/install.log'
+[1.799s] Invoked command in '/home/joe/workspaces/ros2_ws/src/py_kinematics' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/py_kinematics/prefix_override:/home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_kinematics build --build-base /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build install --record /home/joe/workspaces/ros2_ws/src/build/py_kinematics/install.log --single-version-externally-managed install_data

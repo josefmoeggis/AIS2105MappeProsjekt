@@ -1,0 +1,3 @@
+[console_scripts]
+undistort_image_node = undistort_image.undistort_image_node:main
+

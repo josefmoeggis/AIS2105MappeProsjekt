@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/py_controller_pub/py_controller_pub.egg-info
+writing ../build/py_controller_pub/py_controller_pub.egg-info/PKG-INFO
+writing dependency_links to ../build/py_controller_pub/py_controller_pub.egg-info/dependency_links.txt
+writing entry points to ../build/py_controller_pub/py_controller_pub.egg-info/entry_points.txt
+writing requirements to ../build/py_controller_pub/py_controller_pub.egg-info/requires.txt
+writing top-level names to ../build/py_controller_pub/py_controller_pub.egg-info/top_level.txt
+writing manifest file '../build/py_controller_pub/py_controller_pub.egg-info/SOURCES.txt'
+reading manifest file '../build/py_controller_pub/py_controller_pub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/py_controller_pub/py_controller_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build
+creating /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib
+creating /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub
+copying py_controller_pub/__init__.py -> /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub
+copying py_controller_pub/publisher_controller.py -> /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub
+running install
+running install_lib
+creating /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub
+copying /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub/__init__.py -> /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub
+copying /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub/publisher_controller.py -> /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub
+byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub/publisher_controller.py to publisher_controller.cpython-310.pyc
+running install_data
+creating /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/ament_index
+creating /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/ament_index/resource_index
+creating /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/ament_index/resource_index/packages
+copying resource/py_controller_pub -> /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/py_controller_pub
+running install_egg_info
+Copying ../build/py_controller_pub/py_controller_pub.egg-info to /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arduino_controller script to /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/py_controller_pub
+writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/py_controller_pub/install.log'

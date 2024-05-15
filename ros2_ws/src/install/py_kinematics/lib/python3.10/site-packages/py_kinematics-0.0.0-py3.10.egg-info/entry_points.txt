@@ -1,0 +1,3 @@
+[console_scripts]
+kinematic_control = py_kinematics.kinematic_control:main
+

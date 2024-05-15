@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/py_kinematics/py_kinematics.egg-info/PKG-INFO
+writing dependency_links to ../build/py_kinematics/py_kinematics.egg-info/dependency_links.txt
+writing entry points to ../build/py_kinematics/py_kinematics.egg-info/entry_points.txt
+writing requirements to ../build/py_kinematics/py_kinematics.egg-info/requires.txt
+writing top-level names to ../build/py_kinematics/py_kinematics.egg-info/top_level.txt
+reading manifest file '../build/py_kinematics/py_kinematics.egg-info/SOURCES.txt'
+writing manifest file '../build/py_kinematics/py_kinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_kinematics/kinematic_control.py -> /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics
+running install
+running install_lib
+copying /home/joe/workspaces/ros2_ws/src/build/py_kinematics/build/lib/py_kinematics/kinematic_control.py -> /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics
+byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics/kinematic_control.py to kinematic_control.cpython-310.pyc
+running install_data
+copying package.xml -> /home/joe/workspaces/ros2_ws/src/install/py_kinematics/share/py_kinematics
+running install_egg_info
+removing '/home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/py_kinematics/py_kinematics.egg-info to /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/python3.10/site-packages/py_kinematics-0.0.0-py3.10.egg-info
+running install_scripts
+Installing kinematic_control script to /home/joe/workspaces/ros2_ws/src/install/py_kinematics/lib/py_kinematics
+writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/py_kinematics/install.log'

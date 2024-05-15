@@ -1,0 +1,38 @@
+[1.447s] Invoking command in '/home/joe/workspaces/ros2_ws/src/py_controller_pub': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/py_controller_pub/prefix_override:/home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_controller_pub build --build-base /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build install --record /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/install.log --single-version-externally-managed install_data
+[1.740s] running egg_info
+[1.741s] creating ../build/py_controller_pub/py_controller_pub.egg-info
+[1.742s] writing ../build/py_controller_pub/py_controller_pub.egg-info/PKG-INFO
+[1.742s] writing dependency_links to ../build/py_controller_pub/py_controller_pub.egg-info/dependency_links.txt
+[1.742s] writing entry points to ../build/py_controller_pub/py_controller_pub.egg-info/entry_points.txt
+[1.742s] writing requirements to ../build/py_controller_pub/py_controller_pub.egg-info/requires.txt
+[1.743s] writing top-level names to ../build/py_controller_pub/py_controller_pub.egg-info/top_level.txt
+[1.743s] writing manifest file '../build/py_controller_pub/py_controller_pub.egg-info/SOURCES.txt'
+[1.746s] reading manifest file '../build/py_controller_pub/py_controller_pub.egg-info/SOURCES.txt'
+[1.746s] adding license file 'LICENSE'
+[1.747s] writing manifest file '../build/py_controller_pub/py_controller_pub.egg-info/SOURCES.txt'
+[1.747s] running build
+[1.747s] running build_py
+[1.748s] creating /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build
+[1.748s] creating /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib
+[1.748s] creating /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub
+[1.748s] copying py_controller_pub/__init__.py -> /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub
+[1.748s] copying py_controller_pub/publisher_controller.py -> /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub
+[1.748s] running install
+[1.748s] running install_lib
+[1.750s] creating /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub
+[1.750s] copying /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub/__init__.py -> /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub
+[1.750s] copying /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build/lib/py_controller_pub/publisher_controller.py -> /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub
+[1.750s] byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub/__init__.py to __init__.cpython-310.pyc
+[1.751s] byte-compiling /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub/publisher_controller.py to publisher_controller.cpython-310.pyc
+[1.752s] running install_data
+[1.752s] creating /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/ament_index
+[1.752s] creating /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/ament_index/resource_index
+[1.752s] creating /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/ament_index/resource_index/packages
+[1.752s] copying resource/py_controller_pub -> /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/ament_index/resource_index/packages
+[1.752s] copying package.xml -> /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/share/py_controller_pub
+[1.753s] running install_egg_info
+[1.755s] Copying ../build/py_controller_pub/py_controller_pub.egg-info to /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub-0.0.0-py3.10.egg-info
+[1.756s] running install_scripts
+[1.784s] Installing arduino_controller script to /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/py_controller_pub
+[1.784s] writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/py_controller_pub/install.log'
+[1.841s] Invoked command in '/home/joe/workspaces/ros2_ws/src/py_controller_pub' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/py_controller_pub/prefix_override:/home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_controller_pub build --build-base /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build install --record /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+source;share/undistort_image/hook/pythonpath.ps1
+source;share/undistort_image/hook/pythonpath.dsv
+source;share/undistort_image/hook/pythonpath.sh
+source;share/undistort_image/hook/ament_prefix_path.ps1
+source;share/undistort_image/hook/ament_prefix_path.dsv
+source;share/undistort_image/hook/ament_prefix_path.sh

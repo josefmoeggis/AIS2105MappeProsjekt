@@ -1,0 +1,24 @@
+[2.323s] Invoking command in '/home/joe/workspaces/ros2_ws/src/cv2_contour': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/cv2_contour/prefix_override:/home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cv2_contour build --build-base /home/joe/workspaces/ros2_ws/src/build/cv2_contour/build install --record /home/joe/workspaces/ros2_ws/src/build/cv2_contour/install.log --single-version-externally-managed install_data
+[2.735s] running egg_info
+[2.737s] writing ../build/cv2_contour/cv2_contour.egg-info/PKG-INFO
+[2.738s] writing dependency_links to ../build/cv2_contour/cv2_contour.egg-info/dependency_links.txt
+[2.738s] writing entry points to ../build/cv2_contour/cv2_contour.egg-info/entry_points.txt
+[2.738s] writing requirements to ../build/cv2_contour/cv2_contour.egg-info/requires.txt
+[2.738s] writing top-level names to ../build/cv2_contour/cv2_contour.egg-info/top_level.txt
+[2.741s] reading manifest file '../build/cv2_contour/cv2_contour.egg-info/SOURCES.txt'
+[2.742s] writing manifest file '../build/cv2_contour/cv2_contour.egg-info/SOURCES.txt'
+[2.742s] running build
+[2.743s] running build_py
+[2.743s] copying cv2_contour/cv2_contour_node.py -> /home/joe/workspaces/ros2_ws/src/build/cv2_contour/build/lib/cv2_contour
+[2.743s] running install
+[2.744s] running install_lib
+[2.745s] copying /home/joe/workspaces/ros2_ws/src/build/cv2_contour/build/lib/cv2_contour/cv2_contour_node.py -> /home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages/cv2_contour
+[2.746s] byte-compiling /home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages/cv2_contour/cv2_contour_node.py to cv2_contour_node.cpython-310.pyc
+[2.747s] running install_data
+[2.747s] running install_egg_info
+[2.749s] removing '/home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages/cv2_contour-0.0.0-py3.10.egg-info' (and everything under it)
+[2.750s] Copying ../build/cv2_contour/cv2_contour.egg-info to /home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages/cv2_contour-0.0.0-py3.10.egg-info
+[2.751s] running install_scripts
+[2.777s] Installing cv2_contour_node script to /home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/cv2_contour
+[2.778s] writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/cv2_contour/install.log'
+[2.809s] Invoked command in '/home/joe/workspaces/ros2_ws/src/cv2_contour' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/cv2_contour/prefix_override:/home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cv2_contour build --build-base /home/joe/workspaces/ros2_ws/src/build/cv2_contour/build install --record /home/joe/workspaces/ros2_ws/src/build/cv2_contour/install.log --single-version-externally-managed install_data

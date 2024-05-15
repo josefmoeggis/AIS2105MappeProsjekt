@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/undistort_image/undistort_image.egg-info/PKG-INFO
+writing dependency_links to ../../build/undistort_image/undistort_image.egg-info/dependency_links.txt
+writing entry points to ../../build/undistort_image/undistort_image.egg-info/entry_points.txt
+writing requirements to ../../build/undistort_image/undistort_image.egg-info/requires.txt
+writing top-level names to ../../build/undistort_image/undistort_image.egg-info/top_level.txt
+reading manifest file '../../build/undistort_image/undistort_image.egg-info/SOURCES.txt'
+writing manifest file '../../build/undistort_image/undistort_image.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/undistort_image/undistort_image.egg-info to /home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image-0.0.0-py3.10.egg-info
+running install_scripts
+Installing undistort_image_node script to /home/joe/workspaces/ros2_ws/install/undistort_image/lib/undistort_image
+writing list of installed files to '/home/joe/workspaces/ros2_ws/build/undistort_image/install.log'

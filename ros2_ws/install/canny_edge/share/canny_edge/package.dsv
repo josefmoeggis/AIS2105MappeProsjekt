@@ -1,0 +1,6 @@
+source;share/canny_edge/hook/pythonpath.ps1
+source;share/canny_edge/hook/pythonpath.dsv
+source;share/canny_edge/hook/pythonpath.sh
+source;share/canny_edge/hook/ament_prefix_path.ps1
+source;share/canny_edge/hook/ament_prefix_path.dsv
+source;share/canny_edge/hook/ament_prefix_path.sh

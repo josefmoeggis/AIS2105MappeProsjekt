@@ -1,0 +1,3 @@
+[console_scripts]
+gaussian_blur_node = gaussian_blur.gaussian_blur_node:main
+

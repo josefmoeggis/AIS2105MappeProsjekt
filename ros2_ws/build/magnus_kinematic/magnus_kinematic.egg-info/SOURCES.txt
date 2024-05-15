@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/magnus_kinematic/magnus_kinematic.egg-info/PKG-INFO
+../../build/magnus_kinematic/magnus_kinematic.egg-info/SOURCES.txt
+../../build/magnus_kinematic/magnus_kinematic.egg-info/dependency_links.txt
+../../build/magnus_kinematic/magnus_kinematic.egg-info/entry_points.txt
+../../build/magnus_kinematic/magnus_kinematic.egg-info/requires.txt
+../../build/magnus_kinematic/magnus_kinematic.egg-info/top_level.txt
+../../build/magnus_kinematic/magnus_kinematic.egg-info/zip-safe
+magnus_kinematic/__init__.py
+magnus_kinematic/magnus_functions.py
+magnus_kinematic/magnus_kinematic_node.py
+resource/magnus_kinematic
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,22 @@
+[1.753s] Invoking command in '/home/joe/workspaces/ros2_ws/src/py_controller_pub': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/py_controller_pub/prefix_override:/home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_controller_pub build --build-base /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build install --record /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/install.log --single-version-externally-managed install_data
+[2.056s] running egg_info
+[2.057s] writing ../build/py_controller_pub/py_controller_pub.egg-info/PKG-INFO
+[2.057s] writing dependency_links to ../build/py_controller_pub/py_controller_pub.egg-info/dependency_links.txt
+[2.058s] writing entry points to ../build/py_controller_pub/py_controller_pub.egg-info/entry_points.txt
+[2.058s] writing requirements to ../build/py_controller_pub/py_controller_pub.egg-info/requires.txt
+[2.058s] writing top-level names to ../build/py_controller_pub/py_controller_pub.egg-info/top_level.txt
+[2.060s] reading manifest file '../build/py_controller_pub/py_controller_pub.egg-info/SOURCES.txt'
+[2.061s] adding license file 'LICENSE'
+[2.061s] writing manifest file '../build/py_controller_pub/py_controller_pub.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.062s] running build_py
+[2.062s] running install
+[2.063s] running install_lib
+[2.065s] running install_data
+[2.065s] running install_egg_info
+[2.068s] removing '/home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[2.069s] Copying ../build/py_controller_pub/py_controller_pub.egg-info to /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages/py_controller_pub-0.0.0-py3.10.egg-info
+[2.070s] running install_scripts
+[2.101s] Installing arduino_controller script to /home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/py_controller_pub
+[2.102s] writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/py_controller_pub/install.log'
+[2.176s] Invoked command in '/home/joe/workspaces/ros2_ws/src/py_controller_pub' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/src/build/py_controller_pub/prefix_override:/home/joe/workspaces/ros2_ws/src/install/py_controller_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_controller_pub build --build-base /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/build install --record /home/joe/workspaces/ros2_ws/src/build/py_controller_pub/install.log --single-version-externally-managed install_data

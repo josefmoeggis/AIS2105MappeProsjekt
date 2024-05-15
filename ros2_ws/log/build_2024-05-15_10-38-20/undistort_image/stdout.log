@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/undistort_image/undistort_image.egg-info
+writing ../../build/undistort_image/undistort_image.egg-info/PKG-INFO
+writing dependency_links to ../../build/undistort_image/undistort_image.egg-info/dependency_links.txt
+writing entry points to ../../build/undistort_image/undistort_image.egg-info/entry_points.txt
+writing requirements to ../../build/undistort_image/undistort_image.egg-info/requires.txt
+writing top-level names to ../../build/undistort_image/undistort_image.egg-info/top_level.txt
+writing manifest file '../../build/undistort_image/undistort_image.egg-info/SOURCES.txt'
+reading manifest file '../../build/undistort_image/undistort_image.egg-info/SOURCES.txt'
+writing manifest file '../../build/undistort_image/undistort_image.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/joe/workspaces/ros2_ws/build/undistort_image/build
+creating /home/joe/workspaces/ros2_ws/build/undistort_image/build/lib
+creating /home/joe/workspaces/ros2_ws/build/undistort_image/build/lib/undistort_image
+copying undistort_image/undistort_image_node.py -> /home/joe/workspaces/ros2_ws/build/undistort_image/build/lib/undistort_image
+copying undistort_image/__init__.py -> /home/joe/workspaces/ros2_ws/build/undistort_image/build/lib/undistort_image
+running install
+running install_lib
+creating /home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image
+copying /home/joe/workspaces/ros2_ws/build/undistort_image/build/lib/undistort_image/undistort_image_node.py -> /home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image
+copying /home/joe/workspaces/ros2_ws/build/undistort_image/build/lib/undistort_image/__init__.py -> /home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image
+byte-compiling /home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image/undistort_image_node.py to undistort_image_node.cpython-310.pyc
+byte-compiling /home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/joe/workspaces/ros2_ws/install/undistort_image/share/ament_index
+creating /home/joe/workspaces/ros2_ws/install/undistort_image/share/ament_index/resource_index
+creating /home/joe/workspaces/ros2_ws/install/undistort_image/share/ament_index/resource_index/packages
+copying resource/undistort_image -> /home/joe/workspaces/ros2_ws/install/undistort_image/share/ament_index/resource_index/packages
+copying package.xml -> /home/joe/workspaces/ros2_ws/install/undistort_image/share/undistort_image
+running install_egg_info
+Copying ../../build/undistort_image/undistort_image.egg-info to /home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image-0.0.0-py3.10.egg-info
+running install_scripts
+Installing undistort_image_node script to /home/joe/workspaces/ros2_ws/install/undistort_image/lib/undistort_image
+writing list of installed files to '/home/joe/workspaces/ros2_ws/build/undistort_image/install.log'

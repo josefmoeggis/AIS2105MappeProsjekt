@@ -1,0 +1,24 @@
+[1.719s] Invoking command in '/home/joe/workspaces/ros2_ws/src/py_pid': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_pid/prefix_override:/home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pid build --build-base /home/joe/workspaces/ros2_ws/build/py_pid/build install --record /home/joe/workspaces/ros2_ws/build/py_pid/install.log --single-version-externally-managed install_data
+[2.029s] running egg_info
+[2.030s] writing ../../build/py_pid/py_pid.egg-info/PKG-INFO
+[2.031s] writing dependency_links to ../../build/py_pid/py_pid.egg-info/dependency_links.txt
+[2.032s] writing entry points to ../../build/py_pid/py_pid.egg-info/entry_points.txt
+[2.032s] writing requirements to ../../build/py_pid/py_pid.egg-info/requires.txt
+[2.032s] writing top-level names to ../../build/py_pid/py_pid.egg-info/top_level.txt
+[2.034s] reading manifest file '../../build/py_pid/py_pid.egg-info/SOURCES.txt'
+[2.036s] writing manifest file '../../build/py_pid/py_pid.egg-info/SOURCES.txt'
+[2.037s] running build
+[2.037s] running build_py
+[2.037s] copying py_pid/controller_pid.py -> /home/joe/workspaces/ros2_ws/build/py_pid/build/lib/py_pid
+[2.037s] running install
+[2.038s] running install_lib
+[2.039s] copying /home/joe/workspaces/ros2_ws/build/py_pid/build/lib/py_pid/controller_pid.py -> /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid
+[2.040s] byte-compiling /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid/controller_pid.py to controller_pid.cpython-310.pyc
+[2.041s] running install_data
+[2.041s] running install_egg_info
+[2.044s] removing '/home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid-0.0.0-py3.10.egg-info' (and everything under it)
+[2.045s] Copying ../../build/py_pid/py_pid.egg-info to /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid-0.0.0-py3.10.egg-info
+[2.046s] running install_scripts
+[2.090s] Installing ball_control_pid script to /home/joe/workspaces/ros2_ws/install/py_pid/lib/py_pid
+[2.091s] writing list of installed files to '/home/joe/workspaces/ros2_ws/build/py_pid/install.log'
+[2.163s] Invoked command in '/home/joe/workspaces/ros2_ws/src/py_pid' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_pid/prefix_override:/home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pid build --build-base /home/joe/workspaces/ros2_ws/build/py_pid/build install --record /home/joe/workspaces/ros2_ws/build/py_pid/install.log --single-version-externally-managed install_data

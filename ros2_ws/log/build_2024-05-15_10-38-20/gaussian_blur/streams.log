@@ -1,0 +1,29 @@
+[3.327s] Invoking command in '/home/joe/workspaces/ros2_ws/src/gaussian_blur': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/gaussian_blur/prefix_override:/home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gaussian_blur build --build-base /home/joe/workspaces/ros2_ws/build/gaussian_blur/build install --record /home/joe/workspaces/ros2_ws/build/gaussian_blur/install.log --single-version-externally-managed install_data
+[3.942s] running egg_info
+[3.944s] writing ../../build/gaussian_blur/gaussian_blur.egg-info/PKG-INFO
+[3.946s] writing dependency_links to ../../build/gaussian_blur/gaussian_blur.egg-info/dependency_links.txt
+[3.947s] writing entry points to ../../build/gaussian_blur/gaussian_blur.egg-info/entry_points.txt
+[3.949s] writing requirements to ../../build/gaussian_blur/gaussian_blur.egg-info/requires.txt
+[3.950s] writing top-level names to ../../build/gaussian_blur/gaussian_blur.egg-info/top_level.txt
+[3.955s] reading manifest file '../../build/gaussian_blur/gaussian_blur.egg-info/SOURCES.txt'
+[3.958s] writing manifest file '../../build/gaussian_blur/gaussian_blur.egg-info/SOURCES.txt'
+[3.959s] running build
+[3.959s] running build_py
+[3.961s] copying gaussian_blur/gaussian_blur_node.py -> /home/joe/workspaces/ros2_ws/build/gaussian_blur/build/lib/gaussian_blur
+[3.964s] copying gaussian_blur/__init__.py -> /home/joe/workspaces/ros2_ws/build/gaussian_blur/build/lib/gaussian_blur
+[3.966s] running install
+[3.967s] running install_lib
+[3.969s] copying /home/joe/workspaces/ros2_ws/build/gaussian_blur/build/lib/gaussian_blur/gaussian_blur_node.py -> /home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur
+[3.972s] copying /home/joe/workspaces/ros2_ws/build/gaussian_blur/build/lib/gaussian_blur/__init__.py -> /home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur
+[3.975s] byte-compiling /home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur/gaussian_blur_node.py to gaussian_blur_node.cpython-310.pyc
+[3.988s] byte-compiling /home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur/__init__.py to __init__.cpython-310.pyc
+[3.992s] running install_data
+[3.993s] copying resource/gaussian_blur -> /home/joe/workspaces/ros2_ws/install/gaussian_blur/share/ament_index/resource_index/packages
+[3.995s] copying package.xml -> /home/joe/workspaces/ros2_ws/install/gaussian_blur/share/gaussian_blur
+[3.996s] running install_egg_info
+[3.999s] removing '/home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur-0.0.0-py3.10.egg-info' (and everything under it)
+[4.005s] Copying ../../build/gaussian_blur/gaussian_blur.egg-info to /home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur-0.0.0-py3.10.egg-info
+[4.007s] running install_scripts
+[4.078s] Installing gaussian_blur_node script to /home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/gaussian_blur
+[4.078s] writing list of installed files to '/home/joe/workspaces/ros2_ws/build/gaussian_blur/install.log'
+[4.180s] Invoked command in '/home/joe/workspaces/ros2_ws/src/gaussian_blur' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/gaussian_blur/prefix_override:/home/joe/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gaussian_blur build --build-base /home/joe/workspaces/ros2_ws/build/gaussian_blur/build install --record /home/joe/workspaces/ros2_ws/build/gaussian_blur/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/cv2_contour/cv2_contour.egg-info/PKG-INFO
+writing dependency_links to ../build/cv2_contour/cv2_contour.egg-info/dependency_links.txt
+writing entry points to ../build/cv2_contour/cv2_contour.egg-info/entry_points.txt
+writing requirements to ../build/cv2_contour/cv2_contour.egg-info/requires.txt
+writing top-level names to ../build/cv2_contour/cv2_contour.egg-info/top_level.txt
+reading manifest file '../build/cv2_contour/cv2_contour.egg-info/SOURCES.txt'
+writing manifest file '../build/cv2_contour/cv2_contour.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cv2_contour/cv2_contour_node.py -> /home/joe/workspaces/ros2_ws/src/build/cv2_contour/build/lib/cv2_contour
+running install
+running install_lib
+copying /home/joe/workspaces/ros2_ws/src/build/cv2_contour/build/lib/cv2_contour/cv2_contour_node.py -> /home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages/cv2_contour
+byte-compiling /home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages/cv2_contour/cv2_contour_node.py to cv2_contour_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages/cv2_contour-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/cv2_contour/cv2_contour.egg-info to /home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/python3.10/site-packages/cv2_contour-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cv2_contour_node script to /home/joe/workspaces/ros2_ws/src/install/cv2_contour/lib/cv2_contour
+writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/cv2_contour/install.log'

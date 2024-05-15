@@ -1,0 +1,3 @@
+[console_scripts]
+our_arduino_driver = our_arduino_driver.our_arduino_driver:main
+

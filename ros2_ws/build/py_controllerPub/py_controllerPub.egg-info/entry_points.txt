@@ -1,0 +1,3 @@
+[console_scripts]
+talker = py_controllerSub.py_controllerSub:main
+

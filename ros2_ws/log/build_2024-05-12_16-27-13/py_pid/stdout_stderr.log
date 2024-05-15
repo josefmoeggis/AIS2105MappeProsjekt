@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py_pid/py_pid.egg-info
+writing ../../build/py_pid/py_pid.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_pid/py_pid.egg-info/dependency_links.txt
+writing entry points to ../../build/py_pid/py_pid.egg-info/entry_points.txt
+writing requirements to ../../build/py_pid/py_pid.egg-info/requires.txt
+writing top-level names to ../../build/py_pid/py_pid.egg-info/top_level.txt
+writing manifest file '../../build/py_pid/py_pid.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_pid/py_pid.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_pid/py_pid.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/joe/workspaces/ros2_ws/build/py_pid/build
+creating /home/joe/workspaces/ros2_ws/build/py_pid/build/lib
+creating /home/joe/workspaces/ros2_ws/build/py_pid/build/lib/py_pid
+copying py_pid/__init__.py -> /home/joe/workspaces/ros2_ws/build/py_pid/build/lib/py_pid
+copying py_pid/controller_pid.py -> /home/joe/workspaces/ros2_ws/build/py_pid/build/lib/py_pid
+running install
+running install_lib
+creating /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid
+copying /home/joe/workspaces/ros2_ws/build/py_pid/build/lib/py_pid/__init__.py -> /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid
+copying /home/joe/workspaces/ros2_ws/build/py_pid/build/lib/py_pid/controller_pid.py -> /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid
+byte-compiling /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid/controller_pid.py to controller_pid.cpython-310.pyc
+running install_data
+creating /home/joe/workspaces/ros2_ws/install/py_pid/share/ament_index
+creating /home/joe/workspaces/ros2_ws/install/py_pid/share/ament_index/resource_index
+creating /home/joe/workspaces/ros2_ws/install/py_pid/share/ament_index/resource_index/packages
+copying resource/py_pid -> /home/joe/workspaces/ros2_ws/install/py_pid/share/ament_index/resource_index/packages
+copying package.xml -> /home/joe/workspaces/ros2_ws/install/py_pid/share/py_pid
+running install_egg_info
+Copying ../../build/py_pid/py_pid.egg-info to /home/joe/workspaces/ros2_ws/install/py_pid/lib/python3.10/site-packages/py_pid-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ball_control_pid script to /home/joe/workspaces/ros2_ws/install/py_pid/lib/py_pid
+writing list of installed files to '/home/joe/workspaces/ros2_ws/build/py_pid/install.log'

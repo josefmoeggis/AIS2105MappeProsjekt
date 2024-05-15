@@ -1,0 +1,21 @@
+[1.656s] Invoking command in '/home/joe/workspaces/ros2_ws/src/undistort_image': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/undistort_image/prefix_override:/home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/undistort_image build --build-base /home/joe/workspaces/ros2_ws/build/undistort_image/build install --record /home/joe/workspaces/ros2_ws/build/undistort_image/install.log --single-version-externally-managed install_data
+[1.994s] running egg_info
+[1.995s] writing ../../build/undistort_image/undistort_image.egg-info/PKG-INFO
+[1.995s] writing dependency_links to ../../build/undistort_image/undistort_image.egg-info/dependency_links.txt
+[1.996s] writing entry points to ../../build/undistort_image/undistort_image.egg-info/entry_points.txt
+[1.996s] writing requirements to ../../build/undistort_image/undistort_image.egg-info/requires.txt
+[1.996s] writing top-level names to ../../build/undistort_image/undistort_image.egg-info/top_level.txt
+[2.000s] reading manifest file '../../build/undistort_image/undistort_image.egg-info/SOURCES.txt'
+[2.002s] writing manifest file '../../build/undistort_image/undistort_image.egg-info/SOURCES.txt'
+[2.002s] running build
+[2.002s] running build_py
+[2.002s] running install
+[2.003s] running install_lib
+[2.006s] running install_data
+[2.006s] running install_egg_info
+[2.010s] removing '/home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image-0.0.0-py3.10.egg-info' (and everything under it)
+[2.010s] Copying ../../build/undistort_image/undistort_image.egg-info to /home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages/undistort_image-0.0.0-py3.10.egg-info
+[2.012s] running install_scripts
+[2.052s] Installing undistort_image_node script to /home/joe/workspaces/ros2_ws/install/undistort_image/lib/undistort_image
+[2.052s] writing list of installed files to '/home/joe/workspaces/ros2_ws/build/undistort_image/install.log'
+[2.091s] Invoked command in '/home/joe/workspaces/ros2_ws/src/undistort_image' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/undistort_image/prefix_override:/home/joe/workspaces/ros2_ws/install/undistort_image/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/undistort_image build --build-base /home/joe/workspaces/ros2_ws/build/undistort_image/build install --record /home/joe/workspaces/ros2_ws/build/undistort_image/install.log --single-version-externally-managed install_data

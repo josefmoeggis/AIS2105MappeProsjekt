@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/canny_edge/canny_edge.egg-info
+writing ../../build/canny_edge/canny_edge.egg-info/PKG-INFO
+writing dependency_links to ../../build/canny_edge/canny_edge.egg-info/dependency_links.txt
+writing entry points to ../../build/canny_edge/canny_edge.egg-info/entry_points.txt
+writing requirements to ../../build/canny_edge/canny_edge.egg-info/requires.txt
+writing top-level names to ../../build/canny_edge/canny_edge.egg-info/top_level.txt
+writing manifest file '../../build/canny_edge/canny_edge.egg-info/SOURCES.txt'
+reading manifest file '../../build/canny_edge/canny_edge.egg-info/SOURCES.txt'
+writing manifest file '../../build/canny_edge/canny_edge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/joe/workspaces/ros2_ws/build/canny_edge/build
+creating /home/joe/workspaces/ros2_ws/build/canny_edge/build/lib
+creating /home/joe/workspaces/ros2_ws/build/canny_edge/build/lib/canny_edge
+copying canny_edge/canny_edge_node.py -> /home/joe/workspaces/ros2_ws/build/canny_edge/build/lib/canny_edge
+copying canny_edge/__init__.py -> /home/joe/workspaces/ros2_ws/build/canny_edge/build/lib/canny_edge
+running install
+running install_lib
+creating /home/joe/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages/canny_edge
+copying /home/joe/workspaces/ros2_ws/build/canny_edge/build/lib/canny_edge/canny_edge_node.py -> /home/joe/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages/canny_edge
+copying /home/joe/workspaces/ros2_ws/build/canny_edge/build/lib/canny_edge/__init__.py -> /home/joe/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages/canny_edge
+byte-compiling /home/joe/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages/canny_edge/canny_edge_node.py to canny_edge_node.cpython-310.pyc
+byte-compiling /home/joe/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages/canny_edge/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/joe/workspaces/ros2_ws/install/canny_edge/share/ament_index
+creating /home/joe/workspaces/ros2_ws/install/canny_edge/share/ament_index/resource_index
+creating /home/joe/workspaces/ros2_ws/install/canny_edge/share/ament_index/resource_index/packages
+copying resource/canny_edge -> /home/joe/workspaces/ros2_ws/install/canny_edge/share/ament_index/resource_index/packages
+copying package.xml -> /home/joe/workspaces/ros2_ws/install/canny_edge/share/canny_edge
+running install_egg_info
+Copying ../../build/canny_edge/canny_edge.egg-info to /home/joe/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages/canny_edge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing canny_edge_node script to /home/joe/workspaces/ros2_ws/install/canny_edge/lib/canny_edge
+writing list of installed files to '/home/joe/workspaces/ros2_ws/build/canny_edge/install.log'

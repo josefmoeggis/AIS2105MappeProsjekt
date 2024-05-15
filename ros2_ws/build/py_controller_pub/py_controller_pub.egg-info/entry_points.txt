@@ -1,0 +1,3 @@
+[console_scripts]
+arduino_controller = py_controller_pub.publisher_controller:main
+

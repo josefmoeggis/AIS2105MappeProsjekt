@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/canny_edge/canny_edge.egg-info/PKG-INFO
+../../build/canny_edge/canny_edge.egg-info/SOURCES.txt
+../../build/canny_edge/canny_edge.egg-info/dependency_links.txt
+../../build/canny_edge/canny_edge.egg-info/entry_points.txt
+../../build/canny_edge/canny_edge.egg-info/requires.txt
+../../build/canny_edge/canny_edge.egg-info/top_level.txt
+../../build/canny_edge/canny_edge.egg-info/zip-safe
+canny_edge/__init__.py
+canny_edge/canny_edge_node.py
+resource/canny_edge
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

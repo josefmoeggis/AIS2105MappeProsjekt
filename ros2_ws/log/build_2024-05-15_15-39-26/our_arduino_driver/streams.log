@@ -1,0 +1,21 @@
+[3.595s] Invoking command in '/home/joe/workspaces/ros2_ws/src/our_arduino_driver': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/our_arduino_driver/prefix_override:/home/joe/workspaces/ros2_ws/install/our_arduino_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/our_arduino_driver build --build-base /home/joe/workspaces/ros2_ws/build/our_arduino_driver/build install --record /home/joe/workspaces/ros2_ws/build/our_arduino_driver/install.log --single-version-externally-managed install_data
+[4.164s] running egg_info
+[4.165s] writing ../../build/our_arduino_driver/our_arduino_driver.egg-info/PKG-INFO
+[4.166s] writing dependency_links to ../../build/our_arduino_driver/our_arduino_driver.egg-info/dependency_links.txt
+[4.166s] writing entry points to ../../build/our_arduino_driver/our_arduino_driver.egg-info/entry_points.txt
+[4.166s] writing requirements to ../../build/our_arduino_driver/our_arduino_driver.egg-info/requires.txt
+[4.167s] writing top-level names to ../../build/our_arduino_driver/our_arduino_driver.egg-info/top_level.txt
+[4.171s] reading manifest file '../../build/our_arduino_driver/our_arduino_driver.egg-info/SOURCES.txt'
+[4.173s] writing manifest file '../../build/our_arduino_driver/our_arduino_driver.egg-info/SOURCES.txt'
+[4.174s] running build
+[4.174s] running build_py
+[4.174s] running install
+[4.175s] running install_lib
+[4.179s] running install_data
+[4.179s] running install_egg_info
+[4.182s] removing '/home/joe/workspaces/ros2_ws/install/our_arduino_driver/lib/python3.10/site-packages/our_arduino_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[4.183s] Copying ../../build/our_arduino_driver/our_arduino_driver.egg-info to /home/joe/workspaces/ros2_ws/install/our_arduino_driver/lib/python3.10/site-packages/our_arduino_driver-0.0.0-py3.10.egg-info
+[4.185s] running install_scripts
+[4.231s] Installing our_arduino_driver script to /home/joe/workspaces/ros2_ws/install/our_arduino_driver/lib/our_arduino_driver
+[4.232s] writing list of installed files to '/home/joe/workspaces/ros2_ws/build/our_arduino_driver/install.log'
+[4.305s] Invoked command in '/home/joe/workspaces/ros2_ws/src/our_arduino_driver' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/our_arduino_driver/prefix_override:/home/joe/workspaces/ros2_ws/install/our_arduino_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/our_arduino_driver build --build-base /home/joe/workspaces/ros2_ws/build/our_arduino_driver/build install --record /home/joe/workspaces/ros2_ws/build/our_arduino_driver/install.log --single-version-externally-managed install_data

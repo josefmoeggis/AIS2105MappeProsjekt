@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/gaussian_blur/gaussian_blur.egg-info/PKG-INFO
+writing dependency_links to ../build/gaussian_blur/gaussian_blur.egg-info/dependency_links.txt
+writing entry points to ../build/gaussian_blur/gaussian_blur.egg-info/entry_points.txt
+writing requirements to ../build/gaussian_blur/gaussian_blur.egg-info/requires.txt
+writing top-level names to ../build/gaussian_blur/gaussian_blur.egg-info/top_level.txt
+reading manifest file '../build/gaussian_blur/gaussian_blur.egg-info/SOURCES.txt'
+writing manifest file '../build/gaussian_blur/gaussian_blur.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/joe/workspaces/ros2_ws/src/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/gaussian_blur/gaussian_blur.egg-info to /home/joe/workspaces/ros2_ws/src/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gaussian_blur_node script to /home/joe/workspaces/ros2_ws/src/install/gaussian_blur/lib/gaussian_blur
+writing list of installed files to '/home/joe/workspaces/ros2_ws/src/build/gaussian_blur/install.log'

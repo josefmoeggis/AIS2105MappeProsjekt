@@ -1,0 +1,39 @@
+[1.565s] Invoking command in '/home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/build
+[1.912s] running develop
+[1.913s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.913s]   warnings.warn(
+[2.138s] Removing /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[2.172s] Invoked command in '/home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/build
+[2.175s] Invoking command in '/home/joe/workspaces/ros2_ws/src/urdf_tutorial_r2d2': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial_r2d2 build --build-base /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/build install --record /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed install_data --force
+[2.457s] running egg_info
+[2.458s] writing ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/PKG-INFO
+[2.458s] writing dependency_links to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[2.459s] writing entry points to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/entry_points.txt
+[2.459s] writing requirements to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/requires.txt
+[2.459s] writing top-level names to ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/top_level.txt
+[2.462s] reading manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.462s] adding license file 'LICENSE'
+[2.463s] writing manifest file '../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.463s] running build
+[2.463s] running build_py
+[2.463s] copying urdf_tutorial_r2d2/state_publisher.py -> /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2
+[2.464s] running install
+[2.464s] running install_lib
+[2.465s] creating /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2
+[2.465s] copying /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2/state_publisher.py -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2
+[2.465s] copying /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2/__init__.py -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2
+[2.466s] byte-compiling /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2/state_publisher.py to state_publisher.cpython-310.pyc
+[2.467s] byte-compiling /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2/__init__.py to __init__.cpython-310.pyc
+[2.467s] running install_data
+[2.467s] copying resource/urdf_tutorial_r2d2 -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[2.467s] copying package.xml -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[2.468s] copying launch/demo.launch.py -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[2.468s] copying urdf/r2d2.rviz -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[2.468s] copying urdf/runding.urdf -> /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[2.468s] running install_egg_info
+[2.470s] Copying ../../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info to /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2-0.0.0-py3.10.egg-info
+[2.472s] running install_scripts
+[2.497s] Installing listener script to /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[2.497s] Installing state_publisher script to /home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[2.498s] writing list of installed files to '/home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/install.log'
+[2.526s] Invoked command in '/home/joe/workspaces/ros2_ws/src/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/joe/workspaces/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/urdf_tutorial_r2d2 build --build-base /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/build install --record /home/joe/workspaces/ros2_ws/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,21 @@
+[3.740s] Invoking command in '/home/joe/workspaces/ros2_ws/src/magnus_kinematic': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/magnus_kinematic/prefix_override:/home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/magnus_kinematic build --build-base /home/joe/workspaces/ros2_ws/build/magnus_kinematic/build install --record /home/joe/workspaces/ros2_ws/build/magnus_kinematic/install.log --single-version-externally-managed install_data
+[4.343s] running egg_info
+[4.345s] writing ../../build/magnus_kinematic/magnus_kinematic.egg-info/PKG-INFO
+[4.346s] writing dependency_links to ../../build/magnus_kinematic/magnus_kinematic.egg-info/dependency_links.txt
+[4.347s] writing entry points to ../../build/magnus_kinematic/magnus_kinematic.egg-info/entry_points.txt
+[4.347s] writing requirements to ../../build/magnus_kinematic/magnus_kinematic.egg-info/requires.txt
+[4.347s] writing top-level names to ../../build/magnus_kinematic/magnus_kinematic.egg-info/top_level.txt
+[4.352s] reading manifest file '../../build/magnus_kinematic/magnus_kinematic.egg-info/SOURCES.txt'
+[4.354s] writing manifest file '../../build/magnus_kinematic/magnus_kinematic.egg-info/SOURCES.txt'
+[4.355s] running build
+[4.355s] running build_py
+[4.355s] running install
+[4.356s] running install_lib
+[4.360s] running install_data
+[4.360s] running install_egg_info
+[4.365s] removing '/home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages/magnus_kinematic-0.0.0-py3.10.egg-info' (and everything under it)
+[4.365s] Copying ../../build/magnus_kinematic/magnus_kinematic.egg-info to /home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages/magnus_kinematic-0.0.0-py3.10.egg-info
+[4.370s] running install_scripts
+[4.441s] Installing new_controller script to /home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/magnus_kinematic
+[4.441s] writing list of installed files to '/home/joe/workspaces/ros2_ws/build/magnus_kinematic/install.log'
+[4.820s] Invoked command in '/home/joe/workspaces/ros2_ws/src/magnus_kinematic' returned '0': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/magnus_kinematic/prefix_override:/home/joe/workspaces/ros2_ws/install/magnus_kinematic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/magnus_kinematic build --build-base /home/joe/workspaces/ros2_ws/build/magnus_kinematic/build install --record /home/joe/workspaces/ros2_ws/build/magnus_kinematic/install.log --single-version-externally-managed install_data

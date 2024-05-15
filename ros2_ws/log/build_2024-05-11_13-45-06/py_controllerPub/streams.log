@@ -1,0 +1,17 @@
+[0.722s] Invoking command in '/home/joe/workspaces/ros2_ws/src/py_controllerPub': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_controllerPub/prefix_override:/home/joe/workspaces/ros2_ws/install/py_controllerPub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_controllerPub build --build-base /home/joe/workspaces/ros2_ws/build/py_controllerPub/build install --record /home/joe/workspaces/ros2_ws/build/py_controllerPub/install.log --single-version-externally-managed install_data
+[0.996s] running egg_info
+[0.997s] writing ../../build/py_controllerPub/py_controllerPub.egg-info/PKG-INFO
+[0.997s] writing dependency_links to ../../build/py_controllerPub/py_controllerPub.egg-info/dependency_links.txt
+[0.997s] writing entry points to ../../build/py_controllerPub/py_controllerPub.egg-info/entry_points.txt
+[0.997s] writing requirements to ../../build/py_controllerPub/py_controllerPub.egg-info/requires.txt
+[0.998s] writing top-level names to ../../build/py_controllerPub/py_controllerPub.egg-info/top_level.txt
+[1.000s] reading manifest file '../../build/py_controllerPub/py_controllerPub.egg-info/SOURCES.txt'
+[1.001s] adding license file 'LICENSE'
+[1.002s] writing manifest file '../../build/py_controllerPub/py_controllerPub.egg-info/SOURCES.txt'
+[1.002s] running build
+[1.002s] running build_py
+[1.002s] running install
+[1.003s] running install_lib
+[1.004s] running install_data
+[1.004s] error: can't copy 'resource/py_controllerPub': doesn't exist or not a regular file
+[1.029s] Invoked command in '/home/joe/workspaces/ros2_ws/src/py_controllerPub' returned '1': PYTHONPATH=/home/joe/workspaces/ros2_ws/build/py_controllerPub/prefix_override:/home/joe/workspaces/ros2_ws/install/py_controllerPub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_controllerPub build --build-base /home/joe/workspaces/ros2_ws/build/py_controllerPub/build install --record /home/joe/workspaces/ros2_ws/build/py_controllerPub/install.log --single-version-externally-managed install_data
